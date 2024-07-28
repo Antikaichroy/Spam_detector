@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load your pre-trained model
-with open('C:\\Users\\HP\\spam_model.pkl', 'rb') as file:
+with open('spam_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
