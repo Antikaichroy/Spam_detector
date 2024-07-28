@@ -2,8 +2,9 @@ import streamlit as st
 import pickle
 
 # Load your pre-trained model
-with open('c://spam_model.pkl', 'rb') as file:
+with open('C:\\Users\\HP\\spam_model.pkl', 'rb') as file:
     model = pickle.load(file)
+
 
 # Define the Streamlit app
 st.title('Spam Email Classifier')
